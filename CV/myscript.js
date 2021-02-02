@@ -29,3 +29,6 @@ function cambiocolorP() {
     inforlaboral.style.backgroundColor = 'purple';
 };
 
+function imprimir() {
+	window.print();
+}
