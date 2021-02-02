@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 1.1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Variables y constantes en la consola</h1>
+    <p>Tenemos un rectángulo con las siguientes medidas: 10cm de alto, 23cm de ancho y 15cm de largo.</p>
+    <img src="rectangulo.png" alt="rectángulo">
+
+    <form id="DATOS" class="formContainer">
+      <label class="label-form" for="ancho">ancho"X"</label>
+      <input type="number" step="0.01" id="ancho" placeholder="ANCHO">
+      <br>
+      <label class="label-form" for="alto">alto"Y"</label>
+      <input type="number" step="0.01" id="alto"placeholder="ALTURA">
+      <br>
+      <label class="label-form" for="base">base"Z"</label>
+      <input type="number" step="0.01" id="base" min="0" max="100" placeholder="BASE">
+      <br>
+      <div class="container-button">
+        <input type="number" step="0.01" id="resultado" placeholder="Resultado">
+      </div>
+    </form>
+    <script src="myscript.js"></script>
+  </body>
+</html>
